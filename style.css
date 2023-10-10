@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+
+}
+
+html,body{
+    height: 100vh;
+   width:100vw;
+}
+
+#clock-body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url("bg.jpeg");
+
+}
+
+
+
+.body1{
+    height:24rem;
+    width:55rem;
+    background-color:rgba(255, 255, 255,0.1);
+    box-shadow:0px 0px 0.3px 0.3px;
+}
+
+#box6{
+    height:5rem;
+    width:55rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:2rem;
+    font-weight:600;
+}
+
+.span-x{
+    height:5rem;
+    width:7rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.span-y{
+    height:5rem;
+    width:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid brown; */
+}
+
+    
+.div1{
+    height:14rem;
+    width:16rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.boxes{
+    height:14rem;
+    width:55rem;
+    display:flex;
+
+}
+
+.box{
+    height:12rem;
+    width:16rem;
+    font-size:5rem;
+    font-weight:800;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+   
+
+.box-dot{
+    height:12rem;
+    width:6rem;
+    font-size:4rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-weight:600;
+    font-size: 1.1rem;
+}
